@@ -1,4 +1,14 @@
 td, th {
 	border: 1px solid;
-  }
+}
   
+body {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  padding: 10px;
+}
+
+#planets {
+
+  
+}

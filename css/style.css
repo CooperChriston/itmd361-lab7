@@ -1,14 +1,59 @@
 td, th {
-	border: 1px solid;
+	border: 1px solid #000;
+  border-radius: 15px;
+  overflow: hidden;
+  font-size: 18px;
+}
+
+h1 {
+  color: white;
+  font-size: 45px;
 }
   
 body {
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
-  padding: 10px;
+  padding-top: 30px;
+  background-image: url(../images/space.jpg);
 }
 
 #planets {
+  width: 70%;
+  margin: 0 auto;
+}
 
-  
+#planets img {
+  border-radius: 15px;
+}
+
+#planets td {
+  padding: 10px;
+}
+
+#planets th {
+  padding: 10px;
+}
+
+#planets tr:nth-child(odd) td {
+  font-weight: bold;
+}
+
+#planets th:nth-child(1), #planets tr td:nth-child(1) {
+  background-color: rgb(214, 214, 214);
+}
+
+#planets th:nth-child(2), #planets tr td:nth-child(2) {
+  background-color: rgb(235, 202, 110);
+}
+
+#planets th:nth-child(3), #planets tr td:nth-child(3) {
+  background-color: rgb(255, 246, 164);
+}
+
+#planets th:nth-child(4), #planets tr td:nth-child(4) {
+  background-color: rgb(173, 255, 255);
+}
+
+#planets th:nth-child(5), #planets tr td:nth-child(5) {
+  background-color: rgb(135, 157, 255);
 }
